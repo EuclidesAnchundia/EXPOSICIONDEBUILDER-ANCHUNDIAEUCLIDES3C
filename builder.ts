@@ -1,28 +1,3 @@
-/*
-ESTE APARTADO ES ESTO: Concepto del patrón de diseño y tipo de patrón (Estructural, 
-de comportamiento o creacionales) esta en el word.
-
-
-
-El patrón de diseño "Builder" es un patrón creacional que se utiliza para construir
-objetos complejos paso a paso. Proporciona una forma flexible de crear diferentes 
-representaciones de un objeto utilizando el mismo proceso de construcción. 
-El objetivo principal del patrón Builder es separar la construcción de un objeto de su representación, 
-de modo que el mismo proceso de construcción pueda crear diferentes representaciones.
-
-El patrón de diseño Builder se considera un patrón creacional porque se enfoca en la creación de objetos, 
-permitiendo crear estructuras complejas mediante la construcción de partes individuales y luego ensamblándolas en un objeto final. 
-A diferencia de otros patrones de diseño creacionales como el patrón Singleton o el patrón Factory, 
-el patrón Builder se centra en la construcción paso a paso de objetos más complejos.
-
-En cuanto al tipo de patrón de diseño, el patrón Builder se clasifica como un patrón creacional. 
-Los patrones creacionales se centran en la forma en que los objetos son instanciados y creados, 
-proporcionando mecanismos flexibles para la creación de objetos en diferentes situaciones. 
-El patrón Builder en particular se utiliza cuando se requiere construir objetos complejos con 
-múltiples partes y configuraciones posibles.
-
-*/
-
 export class Car {
   public brand: string;
   public model: string;
